@@ -13,7 +13,7 @@ export default function SideBar() {
                 <div>Ver tudo</div>
                 </div>
             {
-                Suggestion()
+                suggestion()
             }
 
             <div className="links">
@@ -30,8 +30,9 @@ export default function SideBar() {
 }
 
 
-function Suggestion(){
-    return usersJSON.map((element, index)=>{
+function suggestion(){
+    // eslint-disable-next-line
+    return usersJSON.map((element, index) => {
         if(element.user.isActiveUser === false) {
             return(
                 <div className="sugestao" key = {index} >

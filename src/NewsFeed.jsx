@@ -15,10 +15,10 @@ export default function NewsFeed() {
 }
 
 function renderPosts() {
-    return postsJSON.map((element, index) =>{
+    return postsJSON.map((element) =>{
    
        return <Post
-       keyNumber = {index}
+       key = {element.idNumber}
        name = {element.user.name} 
        userImg = {element.user.avatar[0]} 
        alt = {element.user.avatar[1]} 

@@ -2,6 +2,7 @@
 {
     "data":[
         {
+            "idNumber": 0,
             "user": {
                 "name": "meowed",
                 "avatar": [
@@ -16,6 +17,7 @@
             }
         },
         {
+            "idNumber": 1,
             "user": {
                 "name": "barked",
                 "avatar": [
@@ -30,6 +32,7 @@
             }
         },
         {
+            "idNumber": 2,
             "user": {
                 "name": "nathanwpyle",
                 "avatar": [
@@ -42,7 +45,9 @@
                 "content": "assets/img/nathanwpyle.jpg",
                 "alt": ""
             }
-        },        {
+        },        
+        {
+            "idNumber": 3,
             "user": {
                 "name": "meowed",
                 "avatar": [

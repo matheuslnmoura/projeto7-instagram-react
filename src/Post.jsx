@@ -2,7 +2,7 @@ import User from "./User";
 
 export default function Post(props) {
     return(
-        <div className="post" key = {props.keyNumber}>
+        <div className="post" key = {props.idNumber}>
             <div className="topo">
                 <User name = {props.name} img = {props.userImg} alt = {props.alt} />
                 <div className="acoes">
@@ -45,7 +45,7 @@ function verifyContentType(contentType, postContent, postContentMP4, postContent
     if (contentType === "img") {
         
         return(
-            <img src= {postContent} />
+            <img src= {postContent} alt="" />
         )
     } else {
         return(
