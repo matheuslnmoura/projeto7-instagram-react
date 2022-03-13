@@ -1,0 +1,64 @@
+
+{
+    "data":[
+        {
+            "user": {
+                "name": "meowed",
+                "avatar": [
+                    "assets/img/meowed.svg",
+                    ""
+                ]
+            }, 
+            "post": {
+                "contentType": "img",
+                "content": "assets/img/gato-telefone.svg",
+                "alt": ""
+            }
+        },
+        {
+            "user": {
+                "name": "barked",
+                "avatar": [
+                    "assets/img/barked.svg",
+                    ""
+                ]
+            }, 
+            "post": {
+                "contentType": "img",
+                "content": "assets/img/dog.svg",
+                "alt": ""
+            }
+        },
+        {
+            "user": {
+                "name": "nathanwpyle",
+                "avatar": [
+                    "assets/img/nathanwpylestrangeplanet.svg",
+                    ""
+                ]
+            }, 
+            "post": {
+                "contentType": "img",
+                "content": "assets/img/nathanwpyle.jpg",
+                "alt": ""
+            }
+        },        {
+            "user": {
+                "name": "meowed",
+                "avatar": [
+                    "assets/img/meowed.svg",
+                    ""
+                ]
+            }, 
+            "post": {
+                "contentType": "video",
+                "content": {
+                    "mp4": "assets/videos/video.mp4",
+                    "ogv": "assets/videos/video.ogv"
+                },
+
+                "alt": ""
+            }
+        }
+    ]
+}
