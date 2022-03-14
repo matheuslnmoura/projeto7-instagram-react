@@ -430,6 +430,11 @@ display: none !important;
     position: relative;
     top: 4px;
 }
+
+.stories .setinha--right,
+.stories .setinha--left{
+    display: none;
+}
 }
 
 
